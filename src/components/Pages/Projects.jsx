@@ -1,15 +1,14 @@
+import React from 'react';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import projImg1 from "../assets/img/LeadLogo.png";
-import projImg2 from "../assets/img/KAM_Logo.png";
-import projImg3 from "../assets/img/Ozon_LP_Logo.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import projImg1 from "../../assets/img/LeadLogo.png";
+import projImg2 from "../../assets/img/KAM_Logo.png";
+import projImg3 from "../../assets/img/Ozon_LP_Logo.png";
 import TrackVisibility from 'react-on-screen';
+import "../../styles/Projects.css"
 
-export const Projects = () => {
-
-
-  return (
-    <section className="project" id="project">
+const Projects = () => {
+    return ( 
+        <section className="project" id="project">
       <Container>
         <Row>
           <Col size={12}>
@@ -51,5 +50,7 @@ export const Projects = () => {
         </Row>
       </Container>
     </section>
-  )
+     );
 }
+ 
+export default Projects;

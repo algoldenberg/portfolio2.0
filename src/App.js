@@ -1,18 +1,18 @@
 import logo from './assets/img/logo.svg';
 import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Footer } from "./components/Footer";
-import { Contact } from './components/Contacts';
+import { NavBar } from "./components/UI/NavBar";
+import Skills from "./components/Pages/Skills";
+import Projects from "./components/Pages/Projects";
+import Footer  from "./components/Pages/Footer";
+import Contact from './components/Pages/Contacts';
+import AboutMe from './components/Pages/AboutMe';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Banner />
+      <AboutMe/>
       <Skills />
       <Projects />
       <Contact/>
