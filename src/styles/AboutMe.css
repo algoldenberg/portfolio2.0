@@ -64,4 +64,21 @@
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }
-  
+
+
+@media only screen and (max-width: 500px) {
+  .banner{
+    scale: 80%;
+    padding-right: 2vw;
+    padding-top: 10vh;
+  }
+
+  .wrapText{
+    height: 40vh !important;
+    padding-right: 10vw;
+  }
+  .aboutMeText{
+    padding-top: 20vh;
+  }
+
+}

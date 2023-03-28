@@ -6,6 +6,8 @@ import projImg3 from "../../assets/img/Ozon_LP_Logo.png";
 import TrackVisibility from 'react-on-screen';
 import "../../styles/Projects.css"
 import StudentProjects from './StudentProjects';
+import StudentMobile from './StudentMobile';
+
 
 
 const Projects = () => {
@@ -45,6 +47,7 @@ const Projects = () => {
                     <p>❮Click on <span class="whiteText">&#10094;project name&#10095;
                     </span> to open link❯</p>
                       <StudentProjects/>
+                      <StudentMobile/>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

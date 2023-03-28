@@ -77,3 +77,11 @@
 .projectImg{
   width: 200px;
 }
+
+@media only screen and (max-width: 500px) {
+  #pills-tab{
+    width: 90vw;
+  }
+
+  .projectRow{scale: 50%;}
+}

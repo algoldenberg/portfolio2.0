@@ -77,8 +77,8 @@ const AboutMe = () => {
                 {({ isVisible }) =>
                 <div>
                   <span className="tagline">Welcome to my Portfolio!</span>
-                  <h1>Hello! I'm <span className="purpleText">Alex Goldenberg</span><br/> <span className="txt-rotate" dataPeriod="200" data-rotate='[ " Frontend Developer"]'><span className="wrap">{text}</span></span></h1>
-                    <p>Originally from Russia, I have been working in the automation of personnel training systems for several years. <br/>
+                  <h1 className='wrapText'>Hello! I'm <span className="purpleText">Alex Goldenberg</span><br/> <span className="txt-rotate" dataPeriod="200" data-rotate='[ " Frontend Developer"]'><span className="wrap">{text}</span></span></h1>
+                    <p className='aboutMeText'>Originally from Russia, I have been working in the automation of personnel training systems for several years. <br/>
                         Currently I’m studying on a Masa Web developement programm. You can check out my projects below.
                         If you like my works, feel free to contact me by any link listed below. <br/> Also, you can <a href={CV} download><span className="purpleText">❮download❯</span></a> my CV
                     </p>

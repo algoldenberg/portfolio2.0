@@ -42,6 +42,10 @@ const Skills = () => {
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
+                                    <img src={reactLogo} alt="Image" />
+                                    <h5>React.JS</h5>
+                                </div>                               
+                                <div className="item">
                                     <img src={htmlLogo} alt="Image" />
                                     <h5>HTML</h5>
                                 </div>
@@ -52,11 +56,6 @@ const Skills = () => {
                                 <div className="item">
                                     <img src={jsLogo} alt="Image" />
                                     <h5>JS</h5>
-                                </div>
-    
-                                <div className="item">
-                                    <img src={reactLogo} alt="Image" />
-                                    <h5>React.JS</h5>
                                 </div>
                                 <div className="item">
                                     <img src={teamLogo} alt="Image" />

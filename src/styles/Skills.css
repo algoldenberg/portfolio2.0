@@ -43,3 +43,13 @@
   .item{
     scale: 70%;
   }
+
+  @media only screen and (max-width: 500px) {
+    .skill{
+      margin-top: 70vh;
+    }
+
+    .container{
+      margin-top: 5%;
+    }
+  }

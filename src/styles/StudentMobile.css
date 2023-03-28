@@ -1,0 +1,41 @@
+.studentMobile{
+    display: none;
+}
+
+.whiteText{
+    color: rgb(255, 255, 255);
+    }
+
+
+@media only screen and (max-width: 500px) {
+    .studentMobile{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .warning2{
+        color: rgb(139, 31, 179);
+    }
+    .projects{
+        padding-top: 10vh;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .circle{
+        background-color: #ffffff;
+        width: 30vh;
+        height: 30vh;
+        align-self: center;
+        border-radius: 50%;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+    }
+
+    .logo1{
+        scale: 70%;
+    }
+}

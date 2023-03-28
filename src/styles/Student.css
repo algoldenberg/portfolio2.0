@@ -84,8 +84,16 @@ writing-mode: vertical-rl;
 
 .slide.active .point{
     display: none;
+    
 }
 
 .none {
     display: none;
     }
+
+
+    @media only screen and (max-width: 500px) {
+      .blockOne{
+        display: none;
+    }
+  }
