@@ -33,9 +33,9 @@ const Projects = () => {
                     <p>In Ozon I worked as a T&D automatization manager. My responsibilities included designing (planning) landing pages of training courses for the specialists of the company. You can see the examples of the pages by following the links below. They were created by my team according to the technical tasks issued by me.</p>
                       <Row>
                         <div className="projectRow">
-                          <a href="#" target={'_blank'}><img className="projectImg" src={projImg1}></img></a>
-                          <a href="#" target={'_blank'}><img className="projectImg" src={projImg2}></img></a>
-                          <a href="#" target={'_blank'}><img className="projectImg" src={projImg3}></img></a>
+                          <a href="https://ozon-lead.netlify.app/" target={'_blank'}><img className="projectImg" src={projImg1}></img></a>
+                          <a href="https://ozon-kam-school.netlify.app/" target={'_blank'}><img className="projectImg" src={projImg2}></img></a>
+                          <a href="https://ozon-league.netlify.app/" target={'_blank'}><img className="projectImg" src={projImg3}></img></a>
                         </div>
                       </Row>
                       
