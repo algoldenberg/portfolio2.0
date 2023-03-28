@@ -14,6 +14,7 @@ const StudentMobile = () => {
         <div className='studentMobile'>
             <h1 className='warning1'>Most  of my student works are not adapted for screens other than 16:9</h1>
             <h1 className='warning2'>In order to fully appreciate my work,better watch them on PC</h1>
+            <h1 className='warning3'>To watch projects with animation on tablet go to landscape mode</h1>
             <div className="projects">
                 <div className='DrumKit'>
                 <a href="https://drum-kit-student-project.netlify.app/" target="_blank" className="whiteText"><h1>&#10094;Drum Kit&#10095;</h1></a>
@@ -43,7 +44,7 @@ const StudentMobile = () => {
                 <a href="https://postcards-student-project.netlify.app/" target="_blank" className="whiteText"><h1>&#10094;Postcards&#10095;</h1></a>
                     <div className='logo'>
                         <div className="circle">
-                            <img className='logo1' src={Postcards} alt="" />
+                            <img className='logo1_1' src={Postcards} alt="" />
                         </div>
                     </div>
                 </div>

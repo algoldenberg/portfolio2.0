@@ -2,6 +2,15 @@
     display: none;
 }
 
+.logo1{
+    scale: 60%;
+}
+
+.logo1_1{
+    scale: 60%;
+    margin-left: 3%;
+}
+
 .whiteText{
     color: rgb(255, 255, 255);
     }
@@ -38,4 +47,41 @@
     .logo1{
         scale: 70%;
     }
+
+    .logo1_1{
+        scale: 70%;
+        margin-left: 3%;
+    }
 }
+
+@media only screen and (min-width: 500px) and (max-width:900px){
+    .studentMobile{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .warning2{
+        color: rgb(139, 31, 179);
+    }
+    .projects{
+        padding-top: 10vh;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .circle{
+        display: none;
+    }
+
+    .logo1{
+        scale: 60%;
+    }
+
+    .logo1_1{
+        scale: 60%;
+        margin-left: 3%;
+    }
+    
+  }

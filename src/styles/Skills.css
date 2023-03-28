@@ -46,10 +46,23 @@
 
   @media only screen and (max-width: 500px) {
     .skill{
-      margin-top: 70vh;
+      margin-top: 80vh;
+      margin-bottom: -45vh;
     }
 
     .container{
       margin-top: 5%;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width:1440px){
+    skill{
+      margin-top: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 500px) and (max-width:900px){
+    .skill{
+      margin-bottom: -50vh;
     }
   }

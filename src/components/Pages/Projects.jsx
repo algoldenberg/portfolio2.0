@@ -32,7 +32,7 @@ const Projects = () => {
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <h2>OZON</h2>
-                    <p>In Ozon I worked as a T&D automatization manager. My responsibilities included designing (planning) landing pages of training courses for the specialists of the company. You can see the examples of the pages by following the links below. They were created by my team according to the technical tasks issued by me.</p>
+                    <p className='ozonText'>In Ozon I worked as a T&D automatization manager. My responsibilities included designing (planning) landing pages of training courses for the specialists of the company. You can see the examples of the pages by following the links below. They were created by my team according to the technical tasks issued by me.</p>
                       <Row>
                         <div className="projectRow">
                           <a href="https://ozon-lead.netlify.app/" target={'_blank'}><img className="projectImg" src={projImg1}></img></a>
@@ -43,7 +43,7 @@ const Projects = () => {
                       
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <p>❮Click on card to learn more❯</p>
+                    <p className='clickToLearn'>❮Click on card to learn more❯</p>
                     <p>❮Click on <span class="whiteText">&#10094;project name&#10095;
                     </span> to open link❯</p>
                       <StudentProjects/>

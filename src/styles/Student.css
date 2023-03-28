@@ -97,3 +97,9 @@ writing-mode: vertical-rl;
         display: none;
     }
   }
+
+  @media only screen and (min-width: 500px) and (max-width:900px){
+    .blockOne{
+      display: none;
+  }
+  }

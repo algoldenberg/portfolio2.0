@@ -84,4 +84,12 @@
   }
 
   .projectRow{scale: 50%;}
+
+  .clickToLearn{
+    display: none;
+  }
+
+  .ozonText{
+    width: 90vw !important;
+  }
 }

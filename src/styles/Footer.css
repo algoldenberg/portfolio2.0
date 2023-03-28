@@ -8,3 +8,18 @@
   background-repeat: no-repeat;
   height: 10vh;
   }
+
+
+  @media only screen and (max-width: 500px) {
+
+    .footer{
+      height: 7vh;
+    }
+  }
+
+
+  /* @media only screen and (min-width: 500px) and (max-width:900px){
+    .footer{
+      height: 32vh;
+    }
+  } */
