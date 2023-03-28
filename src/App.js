@@ -5,7 +5,6 @@ import { NavBar } from "./components/UI/NavBar";
 import Skills from "./components/Pages/Skills";
 import Projects from "./components/Pages/Projects";
 import Footer  from "./components/Pages/Footer";
-import Contact from './components/Pages/Contacts';
 import AboutMe from './components/Pages/AboutMe';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <AboutMe/>
       <Skills />
       <Projects />
-      <Contact/>
       <Footer />
     </div>
   );

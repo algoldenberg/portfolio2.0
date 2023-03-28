@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../../assets/img/logo.svg';
 import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import navIcon3 from '../../assets/img/nav-icon3.svg';
 import navIcon4 from '../../assets/img/github.png';
-import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -56,13 +54,18 @@ export const NavBar = () => {
                 <a href="https://www.instagram.com/goldenberga/"target={"_blank"}><img src={navIcon3} alt="InstagramImg" /></a>
                 <a href="https://github.com/algoldenberg"target={"_blank"}><img src={navIcon4} alt="GitHubImg" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              
+                <a href="mailto:algoldenberga@gmail.com">
+                  <button>
+                  <span>Let’s Connect</span>
+                  </button>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
     </Router>
+
+    
   )
 }

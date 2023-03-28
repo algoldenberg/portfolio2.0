@@ -28,6 +28,8 @@ color: #939CA5;
 font-size: 20px; 
 animation: showDiv 1.5s forwards;
 overflow: hidden;
+
+
 }
 
 @keyframes showDiv   {
@@ -53,6 +55,7 @@ max-height: 464.5px;
 .slide.active{
 flex: 10;
 opacity: 1;
+
 }
 
 .slide.active p{

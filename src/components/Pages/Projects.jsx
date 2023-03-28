@@ -24,7 +24,7 @@ const Projects = () => {
                       <Nav.Link eventKey="first">Work Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Student Projects</Nav.Link>
+                      <Nav.Link eventKey="second">Student Projects</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -40,7 +40,7 @@ const Projects = () => {
                       </Row>
                       
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="second">
                     <p>❮Click on card to learn more❯</p>
                     <p>❮Click on <span class="whiteText">&#10094;project name&#10095;
                     </span> to open link❯</p>
